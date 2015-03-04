@@ -11,7 +11,7 @@ Heading = React.createClass({
   render: function() {
     return (
       <div>
-        <h1>Hello You Beautiful World of {this.state.name}</h1>
+        <h1>Hello You Beautiful World 111 of some {this.state.name}</h1>
         <input value={this.state.name} onChange={this.nameChanged} />
       </div>
     );
